@@ -55,13 +55,28 @@ you can manage the extensions by clicking the `view` menu at the top of the scre
   - Bracket Pair Colorizer
 
 ### 7. Integrated Terminal:
-   - Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
+The integrated terminal in Visual Studio Code (VS Code) is a built-in command line interface that allows you to execute shell commands directly within the editor. You can open integrated terminal by pressing  `Ctrl+Shift+P` to open the Command Palette then type `Terminal: Create New Integrated Terminal` and select it or go to the top menu and select `View > Terminal`.
+
+**Integrated terminal is used for:**
+   - Running commands
+   - You can have multiple terminals
+   - You can split the terminal view to have two terminals side-by-side.
+   - You can Choose which terminal you want to use (e.g GitBash, Command prompt, Powershell).
+     
+**Advantages of using the integrated terminal**
+   - **Convenience and Efficiency:** You can write code, run commands, and see the results without switching windows.
+   - **Project Context:** The integrated terminal opens in the context of the current project directory, making it easier to run commands that are relevant to your project's files and structure.
+   - **Consistency:** The look and feel of the terminal are consistent with the rest of the VS Code interface, providing a unified development environment.
+   - **Multiple Terminals:** Easily manage multiple terminal instances within the same interface, allowing for tasks such as running a development server in one terminal and executing Git commands in another.
+   - **Task Automation:** You can run VS Code tasks directly in the integrated terminal, automating repetitive commands and workflows.
+   - **Environment Integration:** The integrated terminal respects the environment variables and settings of the VS Code workspace, ensuring that commands run with the correct configurations.
+   - **Extensions Support:** Some VS Code extensions enhance the terminal's capabilities, providing additional features and integrations that are not available in external terminals
 
 ### 8. File and Folder Management:
-   - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
+You can create or open a file or folder by going at the top of screen then click on `File` then select `Open file or folder` from the options shown or you can open the file or folder from the VS code explorer. The files or folders that you have created will be shown on the VS code explorer, there you can easily navigate through them and also manage them easily.
 
 ### 9. Settings and Preferences:
-   - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
+Settings are located at the bottom of the activity bar, you can click on them then `Theme` or you can go to `file > preference > settings` to manage settings or `file > preference > theme` to change the theme.
 
 ### 10. Debugging in VS Code:
    - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
@@ -69,9 +84,4 @@ you can manage the extensions by clicking the `view` menu at the top of the scre
 ### 11. Using Source Control:
    - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
 
- Submission Guidelines:
-- Your answers should be well-structured, concise, and to the point.
-- Provide screenshots or step-by-step instructions where applicable.
-- Cite any references or sources you use in your answers.
-- Submit your completed assignment by 1st July 
 
