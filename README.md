@@ -2,10 +2,30 @@
 ## Installation and Navigation of Visual Studio Code (VS Code)
 
 ### 1. Installation of VS Code:
-   - Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.
+   - To download VS Code go to your web browser then the official Visual Studio Code website (https://code.visualstudio.com/). Click on the "Download for Windows" button. This will download the installer (.exe file) for VS Code.
+   - Once the download is complete, navigate to your Downloads folder and double-click the VSCodeSetup.exe file to run the installer.
+   - Read through the license agreement and click "I accept the agreement" if you agree.
+   - Choose where you want to install VS Code. The default location is usually fine.
+   - You will be presented with several additional options. It is recommended to check the create a desktop icon box, Add to PATH (available after restart) box, Register Code as an editor for supported file types box, and Add "Open with Code" action to Windows Explorer file context menu box.
+   - Click "Next" to go through the setup steps.
+   - Finally, click "Install" to begin the installation process. Wait for the installation to complete. This should only take a few minutes.
+   - Once the installation is complete, you can choose to launch VS Code immediately by checking the "Launch Visual Studio Code" checkbox and clicking "Finish". Alternatively, you can launch VS Code from the desktop icon or by searching for "Visual Studio Code" in the Start menu.
 
 ### 2. First-time Setup:
-   - After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
+**Initial configurations and settings that should be adjusted are:**
+   - **Theme:** Go to `File > Preferences > Color Theme` or `(Ctrl+K, Ctrl+T)` and choose a theme that suits your preference.
+   - **Font:** Adjust the font size and family by going to `File > Preferences > Settings` or  `(Ctrl+,)` and searching for editor.fontSize and editor.fontFamily.
+   - Enable **Auto Save** to automatically save your work by going to `File > Auto save`.
+
+**Recommended extensions.**
+   - **Prettier - Code Formatter:** Automatically format your code.
+   - **ESLint:** For JavaScript and TypeScript linting.
+   - **Visual Studio IntelliCode:** Provides AI-assisted code completions.
+   - **Debugger for Chrome:** Debug JavaScript code running in the Chrome browser.
+   - **Live Server:** Launch a development local server with live reload feature for static & dynamic pages.
+   - **Path Intellisense:** Autocompletes filenames.
+   - **GitLens:** Enhances Git capabilities with features like blame annotations, rich commit history, and more.
+   - **GitHub Pull Requests and Issues:** Integrates GitHub pull requests and issues directly into VS Code
 
 ### 3. User Interface Overview:
 The main components of the VS Code user interface are designed to enhance productivity and streamline the development process.
